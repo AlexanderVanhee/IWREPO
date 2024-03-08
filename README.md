@@ -2,8 +2,9 @@
 AlexanderVanhee
 
 build:
-mvn clean packagejava -cp target/bookstore-application-1.0.0.jarbookstore.Main
+mvn clean package
 
-java -cp target/bookstore-application-1.0.0.jarbookstore.Main
+
+java -cp target/bookstore-application-1.0.0.jar bookstore.Main
 
 mvn test

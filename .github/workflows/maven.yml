@@ -22,4 +22,4 @@ jobs:
         java-version: '11' # You can change this to your desired Java version
         
     - name: Build with Maven
-      run: mvn -B clean verify # You can add any additional Maven commands here
+      run: mvn -B package --file pom.xml # You can add any additional Maven commands here
